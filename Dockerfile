@@ -1,7 +1,6 @@
 FROM ubuntu:22.04
 
 # Constants
-ARG BUILDER_NAME="multiversx/sdk-clang-contract-builder:v0.1.0"
 ARG VERSION_LLVM="16"
 
 # Install system dependencies

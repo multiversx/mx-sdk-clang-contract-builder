@@ -109,7 +109,7 @@ def do_build_c(input_folder: Path, output_folder: Path, llvm_version: str):
 
 
 def do_build_cpp(input_folder: Path, output_folder: Path, llvm_version: str):
-    pass
+    raise NotImplementedError()
 
 
 if __name__ == "__main__":
